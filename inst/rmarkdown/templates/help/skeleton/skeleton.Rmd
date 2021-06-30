@@ -9,7 +9,7 @@ output:
 
 <!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
 - make the YAML `title` "The topic name"
-- name the final Rmd file "topic-nameoftopic"
+- name the final Rmd file "topic-nameoftopic.Rmd"
 - If you are considering documenting MULTIPLE TOPICS in a single help Rmd, please consult with Spielman **FIRST**!
 -->
 
@@ -28,11 +28,8 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 The text should be replaced with a plain English and clear description of when and why we use the given topic.
 
-<!-- Include the following depending on the circumstance... --> 
-
-<!-- Add this if the topic is a function that does NOT come with base R, and uncomment/fill in the subsequent multiline HTML comment: -->
-
-<!--To use this function, you need to either first load the `{NAMEOFPACKAGE}` library, or always use the function with `library::function` notation.
+<!-- Add the following if the topic is a function that does NOT come with base R, and uncomment/fill in the subsequent multiline HTML comment: -->
+<!--To use this function, you need to either first load the `{NAMEOFPACKAGE}` library, or always use the function with `library::function()` notation.
 
 ```{r, eval=FALSE}
 # Load the library
