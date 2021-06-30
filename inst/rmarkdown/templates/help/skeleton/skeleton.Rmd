@@ -13,11 +13,10 @@ output:
 - If you are considering documenting MULTIPLE TOPICS in a single help Rmd, STOP and CONSULT FIRST with Spielman!!
 -->
 
-```{r setup, include = FALSE, }
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, 
                       warning = FALSE, 
-                      message = FALSE,
-                      tidy=TRUE)
+                      message = FALSE)
 # If your topic is from a library, load the INDIVIDUAL library here.
 # DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE. ONLY LOAD INDIVIDUAL LIBRARIES THAT ARE NEEDED.
 # IN OTHER WORDS, `library(tidyverse)` <-- ABSOLUTELY NOT!!!!!!!!!

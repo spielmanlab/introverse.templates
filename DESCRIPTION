@@ -9,8 +9,7 @@ Authors@R:
 Description: Get the templates yo
 License: MIT + file LICENSE
 Imports:
-	rmarkdown,
-	formatR
+	rmarkdown
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
