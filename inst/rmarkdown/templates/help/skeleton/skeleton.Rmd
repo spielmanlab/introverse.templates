@@ -8,8 +8,8 @@ output:
 ---
 
 <!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
-- make the YAML `title` "The topic name"
-- name the final Rmd file "topic-nameoftopic.Rmd"
+- make the YAML `title` the topic name itself. For example, the docs for `filter()` have the title: "`dplyr::filter()" 
+- name the final Rmd file "topic-nameofpackageitcomesfrom_nameoftopic.Rmd". For example, the docs for `filter()` are named `topic-dplyr_filter.Rmd`
 - If you are considering documenting MULTIPLE TOPICS in a single help Rmd, please consult with Spielman **FIRST**!
 -->
 
