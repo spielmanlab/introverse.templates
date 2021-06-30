@@ -21,7 +21,10 @@ knitr::opts_chunk$set(echo = TRUE,
 # DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE. ONLY LOAD INDIVIDUAL LIBRARIES THAT ARE NEEDED.
 # IN OTHER WORDS, `library(tidyverse)` <-- ABSOLUTELY NOT!!!!!!!!!
 
+# If you are using the `pengs` dataset as part of your code, read it in here -  (Spielman will make sure it's properly read in package-style by final version)
+# pengs <- readr::read_csv("path/to/pengs.csv")
 ```
+
 
 <br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
 
@@ -56,6 +59,10 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 --> 
 
 ### Examples
+
+<!-- Delete the following if pengs is not used in any examples:-->
+
+> Need a reminder of the dataset `pengs`? You can see the full dataset with `View(pengs)` and learn more about the dataset with `get_help("pengs")`.
 
 
 ```{r}
