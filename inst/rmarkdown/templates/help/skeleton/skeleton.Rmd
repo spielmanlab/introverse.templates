@@ -1,0 +1,46 @@
+---
+title: "Untitled"
+author: "`{introverse}` quick docs"
+output: 
+  html_document:
+    theme: flatly
+    syntax: pygments
+---
+
+```{r setup, include = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
+
+### Description
+
+This text should be replaced with a plain English and clear description of when and why we use the given topic.
+
+
+### Conceptual usage 
+
++ `bullet points of pseudocode`
+
+
+### Examples
+
+<br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
+
+```{r}
+# Brief comment explaining what this example does
+
+
+```
+
+<br>  <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
+
+
+```{r}
+# Brief comment explaining what this example does
+
+```
+
+<br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
+
+<!-- Add more example chunks below, making sure to have a <br> tag in between each example for nicer spacing. There NEEDS TO BE a blank line above and below each <br>! -->
