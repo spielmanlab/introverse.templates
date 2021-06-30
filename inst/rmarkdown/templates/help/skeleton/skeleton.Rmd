@@ -7,15 +7,41 @@ output:
     syntax: pygments
 ---
 
-```{r setup, include = FALSE, warning = FALSE, message = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+<!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
+- make the YAML `title` "The topic name"
+- name the final Rmd file "topic-nameoftopic"
+- If you are considering documenting MULTIPLE TOPICS in a single help Rmd, please consult with Spielman **FIRST**!
+-->
+
+```{r setup, include = FALSE, }
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+# If your topic is from a library, load the INDIVIDUAL library here.
+# DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE. ONLY LOAD INDIVIDUAL LIBRARIES THAT ARE NEEDED.
+# IN OTHER WORDS, `library(tidyverse)` <-- ABSOLUTELY NOT!!!!!!!!!
+
+
 ```
 
 <br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
 
 ### Description
 
-This text should be replaced with a plain English and clear description of when and why we use the given topic.
+The text should be replaced with a plain English and clear description of when and why we use the given topic.
+
+<!-- Include the following depending on the circumstance... --> 
+
+<!-- Add this if the topic is a function that does NOT come with base R, and uncomment/fill in the subsequent multiline HTML comment: -->
+
+<!--To use this function, you need to either first load the `{NAMEOFPACKAGE}` library, or always use the function with `library::function` notation.
+
+```{r, eval=FALSE}
+# Load the library
+library(REPLACE THIS WITH NAME OF LIBRARY!)
+
+# Or, use :: notation
+PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
+```
+-->
 
 
 ### Conceptual usage 
