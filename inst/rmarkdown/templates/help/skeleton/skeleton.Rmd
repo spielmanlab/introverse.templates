@@ -21,8 +21,11 @@ knitr::opts_chunk$set(echo = TRUE,
 # DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE. ONLY LOAD INDIVIDUAL LIBRARIES THAT ARE NEEDED.
 # IN OTHER WORDS, `library(tidyverse)` <-- ABSOLUTELY NOT!!!!!!!!!
 
-# If you are using the `pengs` dataset as part of your code, read it in here -  (Spielman will make sure it's properly read in package-style by final version)
-# pengs <- readr::read_csv("path/to/pengs.csv")
+# If you are using the `pengs` dataset as part of your code, read it in here using this exact code (uncomment it)
+# If you are NOT using the `pengs` dataset, delete all of this
+#pengs <- readr::read_csv(
+#  system.file("extdata", "pengs.csv", package = "introverse") 
+#)
 ```
 
 
