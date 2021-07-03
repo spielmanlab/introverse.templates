@@ -21,10 +21,10 @@ knitr::opts_chunk$set(echo = TRUE,
 # Load any INDIVIDUAL libraries here.
 # DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE!! In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, one at a time.
 
-# If you are using any of the introverse datasets as part of your code, read them in here using this exact code (uncomment it)
-# If you are NOT using the `pengs` dataset, delete all of this
-#pengs <- readr::read_csv(
-#  system.file("extdata", "pengs.csv", package = "introverse") 
+# If you are using the carnivores dataset, read it in here using this exact code below. 
+# If you are using the full msleep dataset, load `ggplot2` as one of your libraries.
+#carnivores <- readr::read_csv(
+#  system.file("extdata", "carnivores.csv", package = "introverse") 
 #)
 ```
 
@@ -59,6 +59,18 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 
 ### Examples
 
+<!-- Add this line if your examples use carnivores (but delete this instruction!):
+> Need a refresher on the `carnivores` dataset? Run `get_help("carnivores)` for more information.
+-->
+
+
+<!-- Add this line if your examples use msleep (but delete this instruction!):
+> Need a refresher on the `msleep` dataset? Run `get_help("msleep)` for more information.
+-->
+
+
+
+<br>  <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. There should be a <br> tab between each example -->
 
 ```{r}
 # Brief comment explaining what this example does
