@@ -16,12 +16,12 @@ output:
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, 
                       warning = FALSE, 
-                      message = FALSE)
-# If your topic is from a library, load the INDIVIDUAL library here.
-# DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE. ONLY LOAD INDIVIDUAL LIBRARIES THAT ARE NEEDED.
-# IN OTHER WORDS, `library(tidyverse)` <-- ABSOLUTELY NOT!!!!!!!!!
+                      message = FALSE,
+                      exercise.lines = 6)
+# Load any INDIVIDUAL libraries here.
+# DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE!! In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, one at a time.
 
-# If you are using the `pengs` dataset as part of your code, read it in here using this exact code (uncomment it)
+# If you are using any of the introverse datasets as part of your code, read them in here using this exact code (uncomment it)
 # If you are NOT using the `pengs` dataset, delete all of this
 #pengs <- readr::read_csv(
 #  system.file("extdata", "pengs.csv", package = "introverse") 
@@ -50,22 +50,14 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 
 ### Conceptual usage 
 
-<!-- Please insert either or both of..
-
-+ `bullet points of pseudocode`
 
 
 ```{r, eval=FALSE}
-# A chunk of pseudocode with flag eval=FALSE
+# Pseudocode examples of use cases, with more appropriate-than-this comments
 ```
 
---> 
 
 ### Examples
-
-<!-- Delete the following if pengs is not used in any examples:-->
-
-> Need a reminder of the dataset `pengs`? You can see the full dataset with `View(pengs)` and learn more about the dataset with `get_help("pengs")`.
 
 
 ```{r}
