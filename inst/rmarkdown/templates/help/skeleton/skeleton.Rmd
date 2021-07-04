@@ -23,15 +23,11 @@ knitr::opts_chunk$set(echo = TRUE,
 # If you need one or both of these datasets, uncomment the relevant line(s).
 # _When you are done development and ready to test your file, RE-DELETE THE LINES!!
 
-# Optional DEVELOPMENT-ONLY code to read in msleep
-#msleep <- readr::read_csv(
-#  system.file("extdata", "msleep.csv", package = "introverse")
-#)
+# Optional DEVELOPMENT-ONLY code to read in msleep. Delete before testing.
+#msleep <- readr::read_csv("../extdata/msleep.csv")
 
-# Optional DEVELOPMENT-ONLY code to read in carnivores
-#carnivores <- readr::read_csv(
-#  system.file("extdata", "carnivores.csv", package = "introverse")
-#)
+# Optional DEVELOPMENT-ONLY code to read in carnivores Delete before testing.
+#carnivores <- readr::read_csv("../extdata/carnivores.csv")
 ```
 
 
