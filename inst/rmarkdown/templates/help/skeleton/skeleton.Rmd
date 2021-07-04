@@ -58,7 +58,7 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 > Need a refresher on the `msleep` dataset? Run `get_help("msleep)` for more information.
 -->
 
-<br>  <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. There should be a <br> tab between each example -->
+<!-- Add a <br> if there is NO DATASET REFRESHER!! Otherwise the refresher takes up enough space. -->
 
 ```{r example1}
 # Brief comment explaining what this example does
