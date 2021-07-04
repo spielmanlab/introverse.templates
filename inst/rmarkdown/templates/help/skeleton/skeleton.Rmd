@@ -9,29 +9,22 @@ output:
 
 <!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
 - make the YAML `title` the topic name. For example, the `filter()` docs are titled `dplyr::filter()` (with backticks since it's code!)
-- name the final Rmd file "topic-packagethetopiccomesfrom_topic.Rmd". For example, the `filter()` file is named `topic-dplyr_filter.Rmd`
+- name the final Rmd file "packagethetopiccomesfrom_topic.Rmd". For example, the `filter()` file is named `dplyr_filter.Rmd`
 - If you are considering documenting MULTIPLE TOPICS in a single help Rmd, STOP and CONSULT FIRST with Spielman!!
 -->
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, 
                       warning = FALSE, 
-                      message = FALSE,
-                      exercise.lines = 6)
+                      message = FALSE)
 # Load any INDIVIDUAL libraries here.
 # DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE!! In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, one at a time.
+# Note that both the carnivores and the msleep datasets should be accessible without having to load them in any way, provided you followed the CONTRIBUTING.md instructions.
 
-# If you are using the carnivores dataset, read it in here using this exact code below. 
-# If you are using the full msleep dataset, load `ggplot2` as one of your libraries.
-#carnivores <- readr::read_csv(
-#  system.file("extdata", "carnivores.csv", package = "introverse") 
-#)
 ```
 
 
-<br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
-
-### Description
+## Description
 
 The text should be replaced with a plain English and clear description of when and why we use the given topic.
 
@@ -48,31 +41,26 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 -->
 
 
-### Conceptual usage 
-
-
+## Conceptual usage 
 
 ```{r, eval=FALSE}
 # Pseudocode examples of use cases, with more appropriate-than-this comments
 ```
 
 
-### Examples
+## Examples
 
 <!-- Add this line if your examples use carnivores (but delete this instruction!):
 > Need a refresher on the `carnivores` dataset? Run `get_help("carnivores)` for more information.
 -->
 
-
 <!-- Add this line if your examples use msleep (but delete this instruction!):
 > Need a refresher on the `msleep` dataset? Run `get_help("msleep)` for more information.
 -->
 
-
-
 <br>  <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. There should be a <br> tab between each example -->
 
-```{r}
+```{r example1}
 # Brief comment explaining what this example does
 
 
@@ -81,11 +69,12 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 <br>  <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. There should be a <br> tab between each example -->
 
 
-```{r}
+```{r example2}
 # Brief comment explaining what this example does
 
 ```
 
 <br> <!-- Do not delete the <br>, and make sure to keep the previous and following lines blank. -->
 
-<!-- Add more example chunks below, making sure to have a <br> tag in between each example for nicer spacing. There NEEDS TO BE a blank line above and below each <br>! -->
+<!-- If needed, add more example chunks below WITH NAMES (example3, example4, etc.), making sure to have a <br> tag in between each example for nicer spacing. If you don't need more examples, don't add any! -->
+
