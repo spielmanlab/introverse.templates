@@ -18,9 +18,20 @@ knitr::opts_chunk$set(echo = TRUE,
                       warning = FALSE, 
                       message = FALSE)
 # Load any INDIVIDUAL libraries here.
-# DO NOT, I REPEAT __DO NOT__, LOAD THE FULL TIDYVERSE!! In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, one at a time.
-# Note that both the carnivores and the msleep datasets should be accessible without having to load them in any way, provided you followed the CONTRIBUTING.md instructions.
+# NEVER load the full tidyverse - In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, _one at a time_.
 
+# If you need one or both of these datasets, uncomment the relevant line(s).
+# _When you are done development and ready to test your file, RE-DELETE THE LINES!!
+
+# Optional DEVELOPMENT-ONLY code to read in msleep
+#msleep <- readr::read_csv(
+#  system.file("extdata", "msleep.csv", package = "introverse")
+#)
+
+# Optional DEVELOPMENT-ONLY code to read in carnivores
+#carnivores <- readr::read_csv(
+#  system.file("extdata", "carnivores.csv", package = "introverse")
+#)
 ```
 
 
