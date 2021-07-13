@@ -20,14 +20,9 @@ knitr::opts_chunk$set(echo = TRUE,
 # Load any INDIVIDUAL libraries here.
 # NEVER load the full tidyverse - In other words `library(tidyverse)` => ABSOLUTELY NOT!!!! Load only what you need, _one at a time_.
 
-# If you need one or both of these datasets, uncomment the relevant line(s).
-# _When you are done development and ready to test your file, RE-DELETE THE LINES!!
-
-# Optional DEVELOPMENT-ONLY code to read in msleep. Delete before testing.
-#msleep <- readr::read_csv("../extdata/msleep.csv")
-
-# Optional DEVELOPMENT-ONLY code to read in carnivores Delete before testing.
-#carnivores <- readr::read_csv("../extdata/carnivores.csv")
+# Do NOT read in any datasets (carnivores/msleep)!!! It's taken care of, as long as you develop as follows instead of knitting (really, no knitting!) - 
+# 1) devtools::load_all()
+# 2) get_help("topic youre currently developing")
 ```
 
 
@@ -51,7 +46,7 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 ## Conceptual usage 
 
 ```{r, eval=FALSE}
-# Pseudocode examples of use cases, with more appropriate-than-this comments
+# Pseudocode examples of use cases
 ```
 
 
