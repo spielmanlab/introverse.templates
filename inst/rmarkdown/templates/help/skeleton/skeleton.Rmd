@@ -1,4 +1,5 @@
 ---
+title: "Leave this alone, do NOT CHANGE IT"
 output: 
   html_document:
     theme: readable
@@ -7,7 +8,7 @@ output:
 
 <!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
 
-- Don't add in a YAML title!!!!! It's supposed to be missing!! Instead, add the title into large HTML code below, as shown.
+- Leave the YAML title alone!!!! It's supposed to say that!! Instead, add your title into large HTML code below, as shown. This allows the title to be integrated with the logo
 - Make the title the topic name. For example, the filter docs are titled dplyr::filter()
 - name the final Rmd file "category_topic.Rmd". For example, the `filter()` file is named `dplyr_filter.Rmd`
 -->
@@ -24,8 +25,29 @@ knitr::opts_chunk$set(echo = TRUE,
 # 2) get_help("topic youre currently developing")
 ```
 
-<!-- ALERT!!!!!! This HTML code integrates the logo with the title!
-Modify the HTML code below by adding the title where it says REPLACE THIS WITH THE TITLE. Do not use any backticks or add any spaces. -->
+<!-- LEAVE THIS CSS CHUNK ALONE!!! --> 
+```{css custom, echo=FALSE}
+.title{
+    display: none;
+}
+blockquote {
+  display: block;
+  font-size: 0.95em;
+  border-left: 3px solid #7FB036;
+  padding:10px;
+  margin-left:10px;
+}
+```
+<!-- LEAVE THIS CSS CHUNK ^^ ALONE!!! -->
+
+
+
+
+<!-- !!!!!!!!!!!ALERT!!!!!! YOU NEED TO ADD YOUR TITLE HERE!!
+
+This is the HTML code that integrates the logo with the title. 
+
+Add your title where it says REPLACE THIS WITH THE TITLE (6th line from the top). Do not change anything else, and do not use any backticks or add any spaces. -->
 <div>
 <br>
  <img src = "logo.png" style = "float:left;height:130px;margin-top:-20px;">
