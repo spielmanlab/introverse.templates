@@ -1,5 +1,4 @@
 ---
-title: ""
 output: 
   html_document:
     theme: readable
@@ -8,7 +7,7 @@ output:
 
 <!-- Welcome to the template! This comment is here to help you get started. The HTML comments will help you fill it out. Please make sure to do the following:
 
-- Leave the YAML title BLANK!!!!! Instead, add the title into large HTML code below, as shown.
+- Don't add in a YAML title!!!!! It's supposed to be missing!! Instead, add the title into large HTML code below, as shown.
 - Make the title the topic name. For example, the filter docs are titled dplyr::filter()
 - name the final Rmd file "category_topic.Rmd". For example, the `filter()` file is named `dplyr_filter.Rmd`
 -->
