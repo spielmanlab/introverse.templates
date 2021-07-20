@@ -1,5 +1,5 @@
 ---
-title: "Leave this alone, do NOT CHANGE IT"
+title: "{introverse} quick docs"
 output: 
   html_document:
     theme: readable
