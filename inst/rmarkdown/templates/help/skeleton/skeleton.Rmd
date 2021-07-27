@@ -60,7 +60,7 @@ Add your title where it says REPLACE THIS WITH THE TITLE (6th line from the top)
 <br>
 <!-- DO NOT DELETE THAT ^^ !!! -->
 
-## Description
+### Description
 
 The text should be replaced with a plain English and clear description of when and why we use the given topic.
 
@@ -77,14 +77,14 @@ PUT THE LIBRARY NAME HERE::PUT FUNCTION NAME HERE WITH PARENTHESES AT THE END()
 -->
 
 
-## Conceptual usage 
+### Conceptual usage 
 
 ```{r usage, eval=FALSE}
 # Pseudocode examples of use cases
 ```
 
 
-## Examples
+### Examples
 
 <!-- Add this section if your examples use carnivores (but delete this instruction!):
 The examples below use the `carnivores` dataset. Learn more about this dataset with `get_help("carnivores")`.
