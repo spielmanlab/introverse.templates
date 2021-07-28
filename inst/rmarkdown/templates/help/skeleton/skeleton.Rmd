@@ -50,8 +50,8 @@ This is the HTML code that integrates the logo with the title.
 Add your title where it says REPLACE THIS WITH THE TITLE (6th line from the top). Do not change anything else, and do not use any backticks or add any spaces. -->
 <div>
 <br>
- <img src = "logo.png" style = "float:left;height:130px;margin-top:-20px;">
- <span style = "font-weight:bold;font-size:40px;"> 
+ <img src = "logo.png" style = "float:left;height:130px;margin-top:-30px;">
+ <span style = "font-weight:bold;font-size:30px;"> 
   &nbsp;<code>REPLACE THIS WITH THE TITLE</code>
  </span>
  <br>
